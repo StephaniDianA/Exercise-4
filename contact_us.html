@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/assets/vendor/js/bootstrap.js">
+    <link rel="stylesheet" href="/assets/vendor/css/style.css">
+    <link rel="stylesheet" href="/assets/vendor/css/bootstrap.min.css">
+    <title>Last Project</title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="issues.html">Issues</a></li>
+                    <li><a href="our_works.html">Our Works</a></li>
+                    <li class="active"><a href="contact_us.html">Contact Us</a></li>
+                </ul>
+            </div>
+    </nav>
+    <div class="container">
+        <h3>Contact Us</h3>
+        <p>For more info please contact us with the form below.</p>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Open Form</button>
+
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+        
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Form Regrister Subscribe</h4>
+                </div>
+            <div class="modal-body">
+                <form method="POST" action="https://formspree.io/stephani.angelina91@gmail.com">
+                    <input type="email" name="email" placeholder="Your email" class="form-control"><br />
+                    <textarea name="message" placeholder="Test Message" class="form-control"></textarea><br />
+                    <button type="submit" class="btn btn-success">Send</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+                
+            </div>
+        </div> 
+        <div class="row">
+            <div class="col-sm-8">         
+                <h3>Maybe you didn't know?</h3>
+            <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5Of3Uoiq1c0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            </div>
+        </div>            
+    </div>
+
+    <br /><br />
+    
+
+    
+  <footer class="container-fluid">
+    <h4><center>Dog Meat Free Indonesia</center></h4>
+  </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/assets/vendor/js/bootstrap.min.js"></script>
+<script src="/assets/vendor/js/jquery.min.js"></script>
+</body>
+</html>
